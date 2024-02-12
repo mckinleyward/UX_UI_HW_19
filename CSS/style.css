@@ -1,3 +1,8 @@
+* {
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+
 .inline-block {
     display: inline-block;
     vertical-align: top;
@@ -6,41 +11,50 @@
 .logo {
     width: 23%;
     padding: 1%;
-    text-align: center;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 26px;
+}
+
+.head {
+    margin-left: 3%;
 }
 
 nav {
     font-family: sans-serif;
-    width: 73%;
+    width: 60%;
     padding: 0%;
-    
+
 }
 
 li {
-    padding: 3%;
+    padding-right: 8%;
+    font-size: 20px;
 }
 
 ul {
     width: 50%;
-    margin-left: 62%;
-
+    text-align: right;
+    margin-left: 60%;
 }
 
 .heroImg {
     top: ;
     height: 600px;
-    padding: 25px;
+    padding-top: 0%;
+    margin-bottom: 5%;
+    padding-left: 25px;
 }
 
 .content {
     width: 500px;
     height: 650px;
     margin-left: 500px;
-    
 }
 
 .profilePic {
-    margin-left: 95%;
+    margin-left: 80%;
     margin-top: 100px;
 }
 
@@ -49,7 +63,7 @@ ul {
     text-align: left;
     position:relative; 
     top: -600px; 
-    left:40px; 
+    left:16px; 
     margin-left:-500px; 
     margin-right:200px;
 }
@@ -58,12 +72,13 @@ footer {
     background-color: white;
     padding: 1%;
     font-family: sans-serif;
+    width: 80%;
 }
 
 footer ul {
     display: inline-block;
     vertical-align: top;
-    padding: 1%;
+    margin-left: 66%;
 }
 
 .forbesHouse img {
@@ -179,4 +194,24 @@ hr {
         "mytrip"
         "dhs"
     ;
+}
+
+.scrollTop {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 2%;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+svg {
+    margin-top: 0.5%;
+    padding-left: 5px;
+    height: 18px;
+    width: 18px%;
+}
+
+.lifooter {
+    padding-top: 2%;
 }
